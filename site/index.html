@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e138e4e8a2.js"
+    crossorigin="anonymous"></script>
+    <title>Formulário</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Criar uma Conta</h2>
+
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Nome de usuário...</label>
+                    <input type="text" id="username" placeholder="Digite seu nome de usuário">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Digite seu email...">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+
+
+                <div class="form-control">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha...">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+
+
+                <div class="form-control">
+                    <label for="confirmsenha">Confirmação de senha</label>
+                    <input type="password" id="confirmsenha" placeholder="Confirme a senha...">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <small>Mensagem de Erro</small>
+                </div>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="funcoes.js"></script>
+</body>
+</html>
